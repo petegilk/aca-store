@@ -28,19 +28,16 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 * Our site is very simple, we only have a few hard coded products and we display all the products on the front page. Decide how you would like to display the products in your web page. Use `<div> <ul>` or `<ol>`. Show the product name, rating, number of reviews and price. Include a link or button that should be clicked on so that you can see the details of the product. Our store is very simple, we just show every product there is by default
 ### Search
 * Create a textbox that is going to be used to type in a product to search for. Put a button next to it to initiate the search.
+### Product Detail
+* Decide how to show one single product. Display all the information that is on a product object. There should be a button for "Add to Cart". Add a `<select>` for quantity. Hard code the options from 1 to 10.
 ### Shopping Cart
 * Create a button somwhere on the page "View Cart", that when clicked will show the products in the user's cart. This will be another list of products, but this one should only show the products that have been added to the cart. Add a button for each product for "remove".
 * There should be button for checkout
-### Product Detail
-* Decide how to show one single product. Display all the information that is on a product object. There should be a button for "Add to Cart". Add a `<select>` for quantity. Hard code the options from 1 to 10.
 ### Category
 * Put a `<select>` somewhere on the page that will list out all the different product categories. The default option should be "--Choose--".
 ### Checkout
 * Create a Form with inputs for First Name, Last Name and Email Address. Also have a submit button that says "Place Order"
 * Show the total price of the order.
-
-
-
 
 ## Functionality
 * Write all your code in index.js. If you want to seperate the code out even more, feel free to add more .js files as you see fit.
