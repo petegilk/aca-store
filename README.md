@@ -8,7 +8,7 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 # Setup
 * Fork, Clone, Create a pull request
 * As you complete each feature of the app; add, commit and push so that we can track your progress
-* Simply open the index.html file in a chrome browser window. Double click on the file or use the menu -> file -> open file
+* Simply open the /public/index.html file in a chrome browser window. Double click on the file or use the menu -> file -> open file
 * Refresh the browser whenever you make changes to see if they worked.
 
 
@@ -16,16 +16,14 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 
 # Instructions
 
-## Products
-* Look at products.js. Here we have an array of hard coded product objects which is put into a global variable `products`. Feel free to change this data as you see fit.
-
-
 ## UI
 * All UI decisions are up to you. You can make it as styled or unstyled as you want.
 * Its a good idea to use string template literals to dynamically construct html strings.
 * There should probably be one function responsible for creating each dynamic UI content.
 ### Products
-* Our site is very simple, we only have a few hard coded products and we display all the products on the front page. Decide how you would like to display the products in your web page. Use `<div> <ul>` or `<ol>`. Show the product name, rating, number of reviews and price. Include a link or button that should be clicked on so that you can see the details of the product. Our store is very simple, we just show every product there is by default
+* Our site is very simple, we only have a few hard coded products and we display all the products on the front page. Decide how you would like to display the products in your web page. Use `<div> <ul>` or `<ol>`. Show the product name, rating, number of reviews and price. Include a link or button that should be clicked on so that you can see the details of the product. Our store is very simple, we just show every product there is by default.
+* Make a fetch call to https://my-json-server.typicode.com/jubs16/Products/Products.
+* Use the data from the fetch call to populate the UI. Show the product name and price. 
 ### Search
 * Create a textbox that is going to be used to type in a product to search for. Put a button next to it to initiate the search.
 ### Product Detail
