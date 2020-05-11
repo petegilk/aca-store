@@ -24,9 +24,9 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 * Our site is very simple, we only have a few hard coded products and we display all the products on the front page. Decide how you would like to display the products in your web page. Use `<div> <ul>` or `<ol>`. Show the product name, rating, number of reviews and price. Include a link or button that should be clicked on so that you can see the details of the product. Our store is very simple, we just show every product there is by default.
 * Make a fetch call to https://my-json-server.typicode.com/jubs16/Products/Products.
 * Use the data from the fetch call to populate the UI. Show the product name, image and price. 
-### Search
-* Create a textbox that is going to be used to type in a product to search for. Put a button next to it to initiate the search.
-### Product Detail
+### 2. Search
+* Create a textbox that is going to be used to type in a product to search for. As the user types, filter the products to the ones that match the textbox value.
+### 3. Product Detail
 * Decide how to show one single product. Display all the information that is on a product object. There should be a button for "Add to Cart". Add a `<select>` for quantity. Hard code the options from 1 to 10.
 ### Shopping Cart
 * Create a button somwhere on the page "View Cart", that when clicked will show the products in the user's cart. This will be another list of products, but this one should only show the products that have been added to the cart. Add a button for each product for "remove".
