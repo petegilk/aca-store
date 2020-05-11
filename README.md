@@ -4,6 +4,7 @@ The purpose of this project is to build an Amazon.com like ecommerce website usi
 * Know how to loop arrays and use array functions like map.
 * Know how to construct strings, concatenation or string template literals.
 * Know how to learn about the use of built in tools such as innerHTML or sessionStorage. (read instruction manual)
+* Know how to use fetch
 
 # Setup
 * Fork, Clone, Create a pull request
