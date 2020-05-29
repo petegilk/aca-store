@@ -20,6 +20,7 @@ function getFetchData() {
 
 let div = document.getElementById('main-container');
 let ul = document.createElement('ul');
+ul.style.listStyleType = 'none';
 div.appendChild(ul);
 
 function printProducts(arr) {
@@ -34,6 +35,9 @@ function printProducts(arr) {
 
     li.innerHTML = `Product name: ${arr[i].name}<br>Price: ${arr[i].price}<br>`;
     li.style.fontWeight = '600';
+    li.style.fontFamily = 'Verdana, Geneva, sans-serif';
+    li.style.backgroundColor = 'lightgray';
+    li.style.padding = '10px';
     li.appendChild(img);
   }
 }
